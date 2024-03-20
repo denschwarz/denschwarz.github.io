@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Story by HTML5 UP
+	Miniport by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -10,69 +10,92 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#cv">CV</a></li>
+					<li><a href="#publications">Publications</a></li>
+					<li><a href="#talks">Talks</a></li>
+					<li><a href="#outreach">Outreach</a></li>
+				</ul>
+			</nav>
 
-				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<h1>Dr. Dennis Schwarz</h1>
-							<p class="major">I am an experimental particle physicist working as a PostDoc at the HEPHY in Vienna. I am interested in foundamental questions of our universe and try to shine light on things we do not yet understand. As a member of the CMS Collaboration at the CERN LHC, I am working on measurements connected to the top quark, the heaviest know elementary particle. </p>
-							<ul class="actions fit">
-								<li><a href="#cv" class="button small wide smooth-scroll-middle">Short CV</a></li>
-								<li><a href="#publications" class="button small wide smooth-scroll-middle">Publications</a></li>
-								<li><a href="#talks" class="button small wide smooth-scroll-middle">Talks</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#outreach" class="button small wide smooth-scroll-middle">Outreach</a></li>
-								<li><a href="#teaching" class="button small wide smooth-scroll-middle">Teaching</a></li>
-								<li><a href="#contact" class="button small wide smooth-scroll-middle">Contact</a></li>
-							</ul>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/dSchwarz.jpg" alt="" /></span>
 						</div>
-						<div class="image">
-							<img src="images/banner.jpg" alt="" />
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1><strong>Dr. Dennis Schwarz</strong></h1>
+							</header>
+							<p>
+								I am an experimental particle physicist working as a PostDoc at the HEPHY in Vienna.
+								I am interested in foundamental questions of our universe and try to shine light on things we do not yet understand.
+								As a member of the CMS Collaboration at the CERN LHC, I am working on measurements connected to the top quark, the heaviest know elementary particle.
+							</p>
 						</div>
-					</section>
+					</div>
+				</div>
+			</article>
 
-				<!-- CV -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="cv">
-						<div class="content">
-							<h2>Short CV</h2>
+		<!-- CV -->
+			<article id="cv" class="wrapper style2">
+				<div class="container">
+					<div class="row">
+						<h1>CV</h1>
+					</div>
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
 							<table>
 								<tr>
 									<td>since 2022</td>
 									<td>Convener for the CMS ttX group</td>
 								</tr>
 								<tr>
-							    <td>since 2021</td>
-							    <td>PostDoc at HEPHY, Vienna</td>
-							  </tr>
+									<td>since 2021</td>
+									<td>PostDoc at HEPHY, Vienna</td>
+								</tr>
 								<tr>
 									<td>since 2017</td>
 									<td>Member of the CMS Collaboration</td>
 								</tr>
-							  <tr>
-							    <td>2017-2021</td>
-							    <td>PhD at University of Hamburg</td>
-							  </tr>
+								<tr>
+									<td>2017-2021</td>
+									<td>PhD at University of Hamburg</td>
+								</tr>
 							</table>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Home</a></li>
-							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
+						<div class="col-8 col-7-large col-12-medium">
+							<!-- ROOM FOR STUFF -->
 						</div>
-					</section>
+					</div>
 
-					<!-- Publications -->
-						<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="publications">
-							<div class="content">
-								<h2>Publications (selection)</h2>
+					<div class="col-8 col-7-large col-12-medium">
+						<p>
+							During my PhD at the University of Hamburg, my main project was a measurement of the jet mass in hadronic decays of boosted top quarks.
+							In addition, I worked on the calibration of top tagging algorithms. During my PostDoc at the HEPHY in Vienna, I extended my portfolio to
+							EFT interpretations with top quarks and pairs of electroweak bosons. I am also exploring novel techniques to measure the top quark mass
+							using energy correlators.
+						</p>
+					</div>
+				</div>
+			</article>
+
+			<!-- publications -->
+				<article id="publications" class="wrapper style1">
+					<div class="container">
+						<div class="row">
+							<h1>Publications</h1>
+						</div>
+						<div class="row">
+							<div class="col-8 col-7-large col-12-medium">
 								<p>CMS Collaboration, <i>Review of top quark mass measurements in CMS</i>, to be submitted,  <a href="https://arxiv.org/abs/2403.01313">arXiv:2403.01313</a>.</p>
 								<p>S. Chatterjee, S. S. Cruz, R. Schöfbeck, D. Schwarz, <i>A rotation-equivariant graph neural network for learning hadronic SMEFT effects</i>, accepted by PRD,  <a href="https://arxiv.org/abs/2401.10323">arXiv:2401.10323</a>.</p>
 								<p>J. Holguin, I. Moult, A. Pathak, M. Procura, R. Schöfbeck, D. Schwarz, <i>Using the W as a Standard Candle to Reach the Top: Calibrating Energy Correlator Based Top Mass Measurements</i>, submitted to PRL,  <a href="https://arxiv.org/abs/2311.02157">arXiv:2311.02157</a>.</p>
@@ -87,19 +110,37 @@
 								<p>CMS Collaboration, <i>Measurement of the jet mass distribution and top quark mass in hadronic decays of boosted top quarks in pp collisions at sqrt{s} = 13 TeV</i>, Phys. Rev. Lett. 124 (2020) 202001,  <a href="https://doi.org/10.1103/PhysRevLett.124.202001">doi:10.1103/PhysRevLett.124.202001</a>.</p>
 								<p>CMS Collaboration, <i>W and top tagging scale factors for Run 2 data</i>, CMS-DP-2020-025,  <a href="https://cds.cern.ch/record/2718978">https://cds.cern.ch/record/2718978</a>.</p>
 								<p>CMS Collaboration, <i>Boosting top-quark measurements</i>, CERN Courier March/April 2020,  <a href="https://cerncourier.com/a/boosting-top-quark-measurements">https://cerncourier.com/a/boosting-top-quark-measurements</a>.</p>
-								<ul class="actions stacked">
-									<li><a href="#" class="button">Home</a></li>
-								</ul>
 							</div>
-							<div class="image">
-								<img src="images/spotlight01.jpg" alt="" />
+							<div class="col-4 col-5-large col-12-medium">
+								<span class="image">
+									<img src="images/mjet.png" alt="" />
+									<figcaption>CMS, Eur. Phys. J. C 83, 560 (2023).</figcaption>
+								</span>
+								<span class="image">
+									<img src="images/mtop.png" alt="" />
+									<figcaption>CMS, arXiv:2403.01313.</figcaption>
+								</span>
+								<span class="image">
+									<img src="images/tagger.png" alt="" />
+									<figcaption>CMS, CMS-DP-2020-025.</figcaption>
+								</span>
 							</div>
-						</section>
+						</div>
+					</div>
+				</article>
 
-						<!-- Talks -->
-							<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="talks">
-								<div class="content">
-									<h2>Talks</h2>
+				<!-- talks -->
+					<article id="talks" class="wrapper style1">
+						<div class="container">
+							<div class="row">
+								<h1>Talks</h1>
+							</div>
+							<div class="row">
+								<div class="col-4 col-5-large col-12-medium">
+									<span class="image"><img src="images/pic00.jpg" alt="" /></span>
+									<span class="image"><img src="images/pic00.jpg" alt="" /></span>
+								</div>
+								<div class="col-8 col-7-large col-12-medium">
 									<p>08/2023 - <i>Measurement of the jet mass distribution of boosted top quarks and the top quark mass with CMS</i>, Poster presentation, EPS HEP 2023 (Hamburg).</p>
 									<p>09/2022 - <i>Studies of top quark properties in CMS</i>, Invited plenary presentation on behalf of CMS, 15th International Workshop on Top Quark Physics (Durham).</p>
 									<p>07/2022 - <i>Recent studies on top quark properties and mass in CMS</i>, Invited presentation on behalf of CMS, ICHEP2022 (Bologna).</p>
@@ -108,89 +149,33 @@
 									<p>09/2021 - <i>Testing the EFT paradigm with top quark final states in proton-proton collisions at LHC with ATLAS and CMS</i>, Invited presentation on behalf of ATLAS and CMS, 14th International Workshop on Top Quark Physics (online).</p>
 									<p>07/2020 - <i>New jet tagging techniques at CMS</i>, Invited presentation on behalf of CMS, ICHEP2020 (Prague, online).</p>
 									<p>11/2019 - <i>Measurement of the jet mass distribution in hadronic decays of boosted top quarks</i>, Workshop of LHC Top Working Group (CERN, Geneva).</p>
-									<p>07/2019 - <i>Jet substructure measurements at CMS</i>, Invited plenary presentation on behalf of CMS, BOOST Conference (MIT, Cambridge).</p>									<ul class="actions stacked">
-										<li><a href="#" class="button">Home</a></li>
-									</ul>
+									<p>07/2019 - <i>Jet substructure measurements at CMS</i>, Invited plenary presentation on behalf of CMS, BOOST Conference (MIT, Cambridge).</p>								</div>
 								</div>
-								<div class="image">
-									<img src="images/spotlight01.jpg" alt="" />
-								</div>
-							</section>
-
-							<!-- Outreach -->
-								<section class="spotlight style1 orient-right content-align-right image-position-center onscroll-image-fade-in" id="outreach">
-									<div class="content">
-										<h2>Outreach</h2>
-										<p>under construction</p>
-										<li><a href="#" class="button">Home</a></li>
-										</ul>
-									</div>
-									<div class="image">
-										<img src="images/spotlight01.jpg" alt="" />
-									</div>
-								</section>
-
-							<!-- Teaching -->
-								<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="teaching">
-									<div class="content">
-										<h2>Teaching</h2>
-										<p>under construction</p>
-										<li><a href="#" class="button">Home</a></li>
-										</ul>
-									</div>
-									<div class="image">
-										<img src="images/spotlight01.jpg" alt="" />
-									</div>
-								</section>
-
-
-
-				<!-- Seven -->
-					<section class="wrapper style1 align-center" id="contact">
-						<div class="inner medium">
-							<h2>Get in touch</h2>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-
+							</div>
 						</div>
-					</section>
+					</article>
 
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<!-- <ul class="icons">
-								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-							</ul> -->
-							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-						</div>
-					</footer>
-
-			</div>
-
+					<!-- Outreach -->
+						<article id="outreach" class="wrapper style1">
+							<div class="container">
+								<div class="row">
+									<h1>Outreach</h1>
+								</div>
+								<div class="row">
+									<div class="col-8 col-7-large col-12-medium">
+										<p>
+											Under construction
+										</p>
+									</div>
+									<div class="col-4 col-5-large col-12-medium">
+										<span class="image"><img src="images/pic00.jpg" alt="" /></span>
+										<span class="image"><img src="images/pic00.jpg" alt="" /></span>
+									</div>
+								</div>
+							</div>
+						</article>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
